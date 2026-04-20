@@ -1151,41 +1151,45 @@
     <h1>Vehicle Condition</h1>
     <p class="section-lead">Inspectors begin by selecting the section of the PSI they are completing. This is especially useful at locations where VE supports top checks, as the inspection questions automatically adjust based on the selected section.</p>
 
-    <div style="margin-bottom:32px;">
-      <div style="background:var(--accent-light);border-radius:var(--radius);padding:24px;border:2px solid var(--accent);">
-        <h3 style="font-size:18px;font-weight:800;color:var(--navy);margin-bottom:16px;">📋 Inspection Process</h3>
-        <div style="display:grid;gap:16px;">
-          <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--blue);">
-            <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Select Inspection Section</div>
-            <p style="font-size:14px;color:var(--gray-600);margin:0;">Choose the section of the PSI you are completing. Questions automatically adjust based on your selection.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start;margin-bottom:32px;">
+      <div>
+        <div style="margin-bottom:32px;">
+          <div style="background:var(--accent-light);border-radius:var(--radius);padding:24px;border:2px solid var(--accent);">
+            <h3 style="font-size:18px;font-weight:800;color:var(--navy);margin-bottom:16px;">📋 Inspection Process</h3>
+            <div style="display:grid;gap:16px;">
+              <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--blue);">
+                <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Select Inspection Section</div>
+                <p style="font-size:14px;color:var(--gray-600);margin:0;">Choose the section of the PSI you are completing. Questions automatically adjust based on your selection.</p>
+              </div>
+              
+              <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--green);">
+                <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Add Notes When Appropriate</div>
+                <p style="font-size:14px;color:var(--gray-600);margin:0;">Inspectors should add notes to responses when appropriate — especially when documenting failures.</p>
+              </div>
+              
+              <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--accent);">
+                <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Save Progress Anytime</div>
+                <p style="font-size:14px;color:var(--gray-600);margin:0;">Progress can be saved at any time, which is helpful when multiple Technicians are working on the same vehicle. When the inspection is reopened, previously entered answers will automatically populate.</p>
+              </div>
+            </div>
           </div>
-          
-          <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--green);">
-            <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Add Notes When Appropriate</div>
-            <p style="font-size:14px;color:var(--gray-600);margin:0;">Inspectors should add notes to responses when appropriate — especially when documenting failures.</p>
-          </div>
-          
-          <div style="background:white;border-radius:8px;padding:20px;border-left:4px solid var(--accent);">
-            <div style="font-size:16px;font-weight:700;color:var(--navy);margin-bottom:8px;">Save Progress Anytime</div>
-            <p style="font-size:14px;color:var(--gray-600);margin:0;">Progress can be saved at any time, which is helpful when multiple Technicians are working on the same vehicle. When the inspection is reopened, previously entered answers will automatically populate.</p>
+        </div>
+
+        <div class="info-box alert">
+          <div class="info-box-icon">⚠️</div>
+          <div>
+            <strong>Important notes:</strong>
+            <ul style="margin:8px 0 0 20px;padding:0;">
+              <li style="margin-bottom:4px;">All questions must be answered before you can select Finish.</li>
+              <li>PSI inspections are not automatically passed or failed based on inspector responses.</li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
 
-    <div style="margin-bottom:32px;text-align:center;">
-      <div style="font-size:11px;font-weight:600;color:var(--gray-400);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Vehicle Condition Screen</div>
-      <img src="vehicle-condition.jpg" alt="Vehicle Condition screen showing inspection sections and options" style="max-width:800px;width:100%;border-radius:12px;border:1px solid var(--gray-200);box-shadow:var(--shadow-md);" />
-    </div>
-
-    <div class="info-box alert">
-      <div class="info-box-icon">⚠️</div>
       <div>
-        <strong>Important notes:</strong>
-        <ul style="margin:8px 0 0 20px;padding:0;">
-          <li style="margin-bottom:4px;">All questions must be answered before you can select Finish.</li>
-          <li>PSI inspections are not automatically passed or failed based on inspector responses.</li>
-        </ul>
+        <div style="font-size:11px;font-weight:600;color:var(--gray-400);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Vehicle Condition Screen</div>
+        <img src="vehicle-condition.jpg" alt="Vehicle Condition screen showing inspection sections and options" style="width:100%;border-radius:12px;border:1px solid var(--gray-200);box-shadow:var(--shadow-md);" />
       </div>
     </div>
   </div>
@@ -1196,34 +1200,36 @@
     <h1>Review & Submit</h1>
     <p class="section-lead">Before finishing the inspection, review all completed sections below. Any sections where failures were identified are clearly highlighted so they can be quickly reviewed or updated if needed.</p>
 
-    <div style="margin-bottom:32px;text-align:center;">
-      <div style="font-size:11px;font-weight:600;color:var(--gray-400);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Review & Submit Screen</div>
-      <img src="review-submit.jpg" alt="Review and Submit screen" style="max-width:800px;width:100%;border-radius:12px;border:1px solid var(--gray-200);box-shadow:var(--shadow-md);" />
-    </div>
-
-    <div style="margin-bottom:32px;">
-      <div style="background:var(--accent-light);border-radius:var(--radius);padding:24px;border:2px solid var(--accent);">
-        <h3 style="font-size:18px;font-weight:800;color:var(--navy);margin-bottom:16px;">📋 Inspection Status</h3>
-        <p style="font-size:14px;color:var(--gray-600);margin-bottom:12px;">Inspectors can update the Inspection Status on this page once all information has been reviewed and confirmed.</p>
-      </div>
-    </div>
-
-    <div class="info-box alert">
-      <div class="info-box-icon">⚠️</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:start;margin-bottom:32px;">
       <div>
-        <strong>Important:</strong>
-        <ul style="margin:8px 0 0 20px;padding:0;">
-          <li style="margin-bottom:4px;">Review all failed items to ensure notes and responses are accurate.</li>
-          <li style="margin-bottom:4px;">You can return to any section to make updates before submitting.</li>
-          <li>All required questions must be completed before the inspection can be submitted.</li>
-        </ul>
-      </div>
-    </div>
+        <div style="margin-bottom:32px;">
+          <div style="background:var(--accent-light);border-radius:var(--radius);padding:24px;border:2px solid var(--accent);">
+            <h3 style="font-size:18px;font-weight:800;color:var(--navy);margin-bottom:16px;">📋 Inspection Status</h3>
+            <p style="font-size:14px;color:var(--gray-600);margin-bottom:12px;">Inspectors can update the Inspection Status on this page once all information has been reviewed and confirmed.</p>
+          </div>
+        </div>
 
-    <div style="margin-top:32px;">
-      <div style="background:var(--green-light);border-radius:var(--radius);padding:24px;border:2px solid var(--green);text-align:center;">
-        <h3 style="font-size:18px;font-weight:800;color:var(--green);margin-bottom:12px;">✓ Ready to Submit</h3>
-        <p style="font-size:14px;color:var(--gray-600);margin:0;">When you're ready, select <strong>Finish</strong> to submit the inspection.</p>
+        <div class="info-box alert" style="margin-bottom:32px;">
+          <div class="info-box-icon">⚠️</div>
+          <div>
+            <strong>Important:</strong>
+            <ul style="margin:8px 0 0 20px;padding:0;">
+              <li style="margin-bottom:4px;">Review all failed items to ensure notes and responses are accurate.</li>
+              <li style="margin-bottom:4px;">You can return to any section to make updates before submitting.</li>
+              <li>All required questions must be completed before the inspection can be submitted.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="background:var(--green-light);border-radius:var(--radius);padding:24px;border:2px solid var(--green);text-align:center;">
+          <h3 style="font-size:18px;font-weight:800;color:var(--green);margin-bottom:12px;">✓ Ready to Submit</h3>
+          <p style="font-size:14px;color:var(--gray-600);margin:0;">When you're ready, select <strong>Finish</strong> to submit the inspection.</p>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:11px;font-weight:600;color:var(--gray-400);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Review & Submit Screen</div>
+        <img src="review-submit.jpg" alt="Review and Submit screen" style="width:100%;border-radius:12px;border:1px solid var(--gray-200);box-shadow:var(--shadow-md);" />
       </div>
     </div>
   </div>
